@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<body>
+    <h1> templates demo</h1>
+    <!-- <h1> Hello {{ name }} you are from {{place}} </h1> -->
+    <h2> Welcome to the text analyser .Enter your text below</h2>
+    <form action="/analyse" method="get">
+      <textarea name="text">
+
+      </textarea><br>
+      <input type="checkbox" name="removepunc">Remove Punctuations<br>
+
+     
+    <input type="checkbox" name="removepunc"> Remove Punctuations<br>
+    <input type="checkbox" name="fullcaps"> UPPERCASE<br>
+    <input type="checkbox" name="newlineremover"> New Line Remover<br>
+    <input type="checkbox" name="extraspaceremover"> Extra Spaces Remover<br>
+    <button type='submit'> Analyze Text</button>
+
+    </form>
+</body>
+</html>
